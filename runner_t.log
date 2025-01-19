@@ -1,0 +1,7 @@
+2025-01-19 23:39:36,189 | INFO | test_run выполнен успешно
+2025-01-19 23:39:36,190 | WARNING | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "C:\Users\Ivan\PycharmProjects\Runner\test.py", line 11, in test_walk
+    walk_name = Runner('walk_name', -5)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Runner.__init__() takes 2 positional arguments but 3 were given
